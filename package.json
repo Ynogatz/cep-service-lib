@@ -1,0 +1,29 @@
+{
+  "name": "cep-service",
+  "version": "1.1.5",
+  "description": "Lib para consulta de cep",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "rimraf dist && tsc && npm publish",
+    "build": "rimraf dist && tsc"
+  },
+  "keywords": [
+    "cep",
+    "via-cep",
+    "open-cep"
+  ],
+  "author": "Ygor Nogatz",
+  "license": "ISC",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.7"
+  }
+}

@@ -1,0 +1,6 @@
+export * from './via-cep'
+export * from './open-cep'
+export * from './endereco'
+export * from './tipo-integracao'
+export * from './abstract-cep.service'
+export * from './cep.service'
