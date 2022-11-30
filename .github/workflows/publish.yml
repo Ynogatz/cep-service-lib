@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: 14
       - run: npm install
-      - uses: Ynogatz/cep-service-lib
+      - uses: Ynogatz/cep-service-lib@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
