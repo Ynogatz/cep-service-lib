@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: 14
       - run: npm install
-      - uses: JS-DevTools/npm-publish@v1
+      - uses: Ynogatz/cep-service-lib
         with:
           token: ${{ secrets.NPM_TOKEN }}
