@@ -1,6 +1,6 @@
 {
   "name": "cep-service",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Lib para consulta de cep",
   "main": "dist/index.js",
   "scripts": {
