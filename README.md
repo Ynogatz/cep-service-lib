@@ -1,5 +1,4 @@
 Exemplo simples de uso
-//teste
 
 --
 
