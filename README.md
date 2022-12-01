@@ -1,5 +1,5 @@
 Exemplo simples de uso
-//teste 3
+//teste 4
 --
 
 import { CepService, TipoIntegracao } from 'cep-service'
